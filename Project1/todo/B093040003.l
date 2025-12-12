@@ -16,6 +16,9 @@ int insert(char* s);
 void dump();
 void release();
 %}
+
+%option noyywrap
+
 space [ \t]
 eol \r\n|\n
 operator ~|&&|\|\||\+\+|\-\-|([\+\-\*\/%\^\|\&<>=!]|[>]?>>|<<)[=]?

@@ -5,6 +5,9 @@
 #include "y.tab.h"
 unsigned charCount = 1, lineCount = 1;
 %}
+
+%option noyywrap
+
 space [ \t]
 eol [\r]?\n
 operator \+[\+]?|\-[\-]?|\*|\/|[<>=][=]?

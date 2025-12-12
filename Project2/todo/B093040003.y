@@ -1,4 +1,4 @@
-%define parse.error verbose
+// %define parse.error verbose
 %{
 #include <stdio.h>
 #include <stdlib.h>

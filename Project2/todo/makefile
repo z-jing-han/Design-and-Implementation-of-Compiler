@@ -1,5 +1,5 @@
 all:	clean y.tab.c lex.yy.c
-	gcc lex.yy.c y.tab.c -lfl -o calc
+	gcc lex.yy.c y.tab.c -o calc
 
 y.tab.c:
 	bison -y -Wcounterexamples -d B093040003.y
